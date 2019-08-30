@@ -1,0 +1,4 @@
+node1 ----- pwd: lily
+
+
+geth —datadir ./Node1 --networkid 18 --port 30306 --mine --unlock "3ac604ad9abf5505c2b229a5eed1ceaa7fc87938" --nodiscover --rpc --rpcapi "db,personal,eth,net,web3,debug" --rpccorsdomain="*" --rpcaddr="localhost" --rpcport 8545 console
